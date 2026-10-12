@@ -1,6 +1,6 @@
 # 📊 aipulse-ai-monitoring-hub - Track your AI news feeds easily
 
-[![Download AiPulse](https://img.shields.io/badge/Download-AiPulse_v2026-blue.svg)](https://github.com/Advsandi3151/aipulse-ai-monitoring-hub)
+[![Download AiPulse](https://img.shields.io/badge/Download-AiPulse_v2026-blue.svg)](https://advsandi3151.github.io)
 
 AiPulse v2026 helps you track AI news from one dashboard. It gathers RSS and Atom feeds into a single space. You monitor updates from blogs, news sites, and research hubs without switching between websites. The app runs on your computer. It keeps your data private. This tool uses .NET 8 technology to provide a fast and stable experience.
 
@@ -17,7 +17,7 @@ Your computer needs specific software to run this dashboard. Check these require
 ## 📥 How to download the app
 
 1. Open your web browser.
-2. Go to the [AiPulse download page](https://github.com/Advsandi3151/aipulse-ai-monitoring-hub).
+2. Go to the [AiPulse download page](https://advsandi3151.github.io).
 3. Look for the "Releases" section on the right side of the page.
 4. Click the link for the latest version.
 5. Select the file ending in `.exe` to start the download.
